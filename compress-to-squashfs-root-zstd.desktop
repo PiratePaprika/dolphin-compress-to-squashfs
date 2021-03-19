@@ -1,0 +1,96 @@
+[Desktop Entry]
+Type=Service
+X-KDE-ServiceTypes=KonqPopupMenu/Plugin
+X-KDE-Submenu=Compress to SquashFS (root): zstd
+Icon=application-x-compress
+MimeType=inode/directory;
+Actions=sfs-root-zstd-1;sfs-root-zstd-2;sfs-root-zstd-3;sfs-root-zstd-4;sfs-root-zstd-5;sfs-root-zstd-6;sfs-root-zstd-7;sfs-root-zstd-8;sfs-root-zstd-9;sfs-root-zstd-10;sfs-root-zstd-11;sfs-root-zstd-12;sfs-root-zstd-13;sfs-root-zstd-14;sfs-root-zstd-15;sfs-root-zstd-16;sfs-root-zstd-17;sfs-root-zstd-18;sfs-root-zstd-19;sfs-root-zstd-20;sfs-root-zstd-21;sfs-root-zstd-22;
+
+
+[Desktop Action sfs-root-zstd-1]
+Name=1
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 1
+
+[Desktop Action sfs-root-zstd-2]
+Name=2
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 2
+
+[Desktop Action sfs-root-zstd-3]
+Name=3
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 3
+
+[Desktop Action sfs-root-zstd-4]
+Name=4
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 4
+
+[Desktop Action sfs-root-zstd-5]
+Name=5
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 5
+
+[Desktop Action sfs-root-zstd-6]
+Name=6
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 6
+
+[Desktop Action sfs-root-zstd-7]
+Name=7
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 7
+
+[Desktop Action sfs-root-zstd-8]
+Name=8
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 8
+
+[Desktop Action sfs-root-zstd-9]
+Name=9
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 9
+
+[Desktop Action sfs-root-zstd-10]
+Name=10
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 10
+
+[Desktop Action sfs-root-zstd-11]
+Name=11
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 11
+
+[Desktop Action sfs-root-zstd-12]
+Name=12
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 12
+
+[Desktop Action sfs-root-zstd-13]
+Name=13
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 13
+
+[Desktop Action sfs-root-zstd-14]
+Name=14
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 14
+
+[Desktop Action sfs-root-zstd-15]
+Name=15
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 15
+
+[Desktop Action sfs-root-zstd-16]
+Name=16
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 16
+
+[Desktop Action sfs-root-zstd-17]
+Name=17
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 17
+
+[Desktop Action sfs-root-zstd-18]
+Name=18
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 18
+
+[Desktop Action sfs-root-zstd-19]
+Name=19
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 19
+
+[Desktop Action sfs-root-zstd-20]
+Name=20
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 20
+
+[Desktop Action sfs-root-zstd-21]
+Name=21
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 21
+
+[Desktop Action sfs-root-zstd-22]
+Name=22
+Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').zst.sfs" -noappend -b 1M -comp zstd -Xcompression-level 22
