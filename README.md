@@ -1,6 +1,7 @@
-## Dolphin service menu: Compress to SquashFS
+## Dolphin service menu: Compress / backup directory to SquashFS
 
-Useful for backups and other purposes as SquashFS can be easily mounted.  
-See also [SquashFS mounter / unmounter](https://github.com/shvchk/dolphin-squashfs-mount)
+SquashFS can be easily mounted, so it's often more convenient than usual archives for backups and other purposes. No root required.
+
+See also [SquashFS mounter / unmounter](https://github.com/shvchk/dolphin-squashfs-mount) (no root required, too).
 
 ![Screenshot](screenshot.png)
