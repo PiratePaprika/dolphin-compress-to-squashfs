@@ -8,10 +8,12 @@ Actions=sfs-xz;sfs-root-xz;
 
 [Desktop Action sfs-xz]
 Name=Compress to SquashFS: xz
+Name[nl]=Comprimeren naar SquashFS: xz
 Icon=application-x-compress
 Exec=mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').xz.sfs" -noappend -b 1M -comp xz
 
 [Desktop Action sfs-root-xz]
 Name=Compress to SquashFS (root): xz
+Name[nl]=Comprimeren naar SquashFS (root): xz
 Icon=application-x-compress
 Exec=pkexec mksquashfs "%f" "%f.$(date +'%%+4Y.%%m.%%d-%%H.%%M.%%S').xz.sfs" -noappend -b 1M -comp xz
