@@ -3,6 +3,7 @@ Type=Service
 X-KDE-ServiceTypes=KonqPopupMenu/Plugin
 X-KDE-Submenu=Compress to SquashFS (root): zstd
 X-KDE-Submenu[nl]=Comprimeren naar SquashFS (root): zstd
+X-KDE-Submenu[ru]=Сжать в SquashFS (root): zstd
 Icon=application-x-compress
 MimeType=inode/directory;
 Actions=sfs-root-zstd-1;sfs-root-zstd-2;sfs-root-zstd-3;sfs-root-zstd-4;sfs-root-zstd-5;sfs-root-zstd-6;sfs-root-zstd-7;sfs-root-zstd-8;sfs-root-zstd-9;sfs-root-zstd-10;sfs-root-zstd-11;sfs-root-zstd-12;sfs-root-zstd-13;sfs-root-zstd-14;sfs-root-zstd-15;sfs-root-zstd-16;sfs-root-zstd-17;sfs-root-zstd-18;sfs-root-zstd-19;sfs-root-zstd-20;sfs-root-zstd-21;sfs-root-zstd-22;
